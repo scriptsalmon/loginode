@@ -1,3 +1,5 @@
+import babo from './babo.js';
+
 let falsyInt = 0
 let falsyBool = false
 let falsyNull = null
@@ -8,4 +10,4 @@ falsyBool ??= 'bar'
 falsyNull ??= 'baz'
 falsyUndefined ??= 'fizz'
 
-console.log(falsyInt, falsyBool, falsyNull, falsyUndefined);
+console.log(falsyInt, falsyBool, falsyNull, falsyUndefined, babo());
